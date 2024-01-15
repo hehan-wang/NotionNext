@@ -4,23 +4,23 @@ const CONFIG = {
   HEO_SITE_CREATE_TIME: '2021-09-21', // 建站日期，用于计算网站运行的第几天
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
-  NOTICE_BAR: [
+  HEO_NOTICE_BAR: [
     { title: '欢迎来到我的博客', url: 'https://www.hehanwang.com' },
     { title: '自建GPT4网站', url: 'https://chat.wenwen-ai.com' }
   ],
 
   // 英雄区(首页顶部大卡)
-  HERO_TITLE_1: '分享编程',
-  HERO_TITLE_2: '与AIGC',
-  HERO_TITLE_3: 'hehanwang.com',
-  HERO_TITLE_4: '自建GPT网站',
-  HERO_TITLE_5: 'GPT4+MIdJourney+角色训练',
-  HERO_TITLE_LINK: 'https://chat.wenwen-ai.com',
+  HEO_HERO_TITLE_1: '分享编程',
+  HEO_HERO_TITLE_2: '与AIGC',
+  HEO_HERO_TITLE_3: 'hehanwang.com',
+  HEO_HERO_TITLE_4: '自建GPT网站',
+  HEO_HERO_TITLE_5: 'GPT4+MIdJourney+角色训练',
+  HEO_HERO_TITLE_LINK: 'https://chat.wenwen-ai.com',
 
   // 英雄区显示三个置顶分类
-  HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
-  HERO_CATEGORY_2: { title: 'AIGC', url: '/tag/AIGC' },
-  HERO_CATEGORY_3: { title: '编程实战', url: '/tag/编程实战' },
+  HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
+  HEO_HERO_CATEGORY_2: { title: 'AIGC', url: '/tag/AIGC' },
+  HEO_HERO_CATEGORY_3: { title: '编程实战', url: '/tag/编程实战' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HEO_HERO_RECOMMEND_POST_TAG: '推荐',
@@ -28,14 +28,14 @@ const CONFIG = {
   //   HERO_RECOMMEND_COVER: 'https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_1280.jpg', // 英雄区右侧图片
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
-  INFOCARD_GREETINGS: [
+  HEO_INFOCARD_GREETINGS: [
     '你好！我是鹤涵',
     '🔍 分享与热心帮助',
     '🏃 脚踏实地行动派',
     '🤖️ 数码科技爱好者',
     '🧱 团队小组发动机'
   ],
-  INFO_CARD_URL: 'https://www.hehanwang.com/about', // 个人资料底部按钮链接
+  HEO_INFO_CARD_URL: 'https://www.hehanwang.com/about', // 个人资料底部按钮链接
 
   // 用户技能图标
   HEO_GROUP_ICONS: [
@@ -97,11 +97,11 @@ const CONFIG = {
     }
   ],
 
-  SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
-  SOCIAL_CARD_TITLE_1: '交流频道',
-  SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
-  SOCIAL_CARD_TITLE_3: '点击加入社群',
-  SOCIAL_CARD_URL: 'https://www.hehanwang.com/about',
+  HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
+  HEO_SOCIAL_CARD_TITLE_1: '交流频道',
+  HEO_SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
+  HEO_SOCIAL_CARD_TITLE_3: '点击加入社群',
+  HEO_SOCIAL_CARD_URL: 'https://www.hehanwang.com/about',
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置
